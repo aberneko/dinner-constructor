@@ -1,4 +1,4 @@
-package ru.practicum.dinner;
+/*package ru.practicum.dinner;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -72,4 +72,4 @@ public class Main {
             System.out.println(generatedCombos.???(???)); //выведите каждый элемент получившейся комбинации
         }
     }
-}
+}*/

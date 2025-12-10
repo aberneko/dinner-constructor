@@ -1,4 +1,4 @@
-package ru.practicum.dinner;
+/*package ru.practicum.dinner;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -54,4 +54,4 @@ public class DinnerConstructor {
         String selectedDish = availableDishes.???(dishIndex); //выберем произвольное блюдо по индексу
     }
 
-}
+}*/
