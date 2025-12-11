@@ -1,4 +1,4 @@
-/*package ru.practicum.dinner;
+package ru.practicum.dinner;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -66,10 +66,11 @@ public class Main {
         }
 
         // сгенерируйте комбинации блюд и выведите на экран
-        ??? generatedCombos = ???(numberOfCombos, selectedTypes); //сгенерируйте варианты комбинаций блюд с помощью метода DinnerConstructor generateCombos
-        for (???; i < numberOfCombos; i++) {
+        ArrayList<ArrayList<String>> generatedCombos = dc.generateCombos(numberOfCombos, selectedTypes); //сгенерируйте варианты комбинаций блюд с помощью метода DinnerConstructor generateCombos
+        for (int i = 0; i < numberOfCombos; i++) {
             System.out.println("Комбинация " + i);
-            System.out.println(generatedCombos.???(???)); //выведите каждый элемент получившейся комбинации
+            System.out.println(generatedCombos.get(i)); //выведите каждый элемент получившейся комбинации
         }
     }
-}*/
+}
+
